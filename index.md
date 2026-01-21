@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 4<sup>th</sup> Monocular Depth Estimation Challenge
-description: MDEC @ CVPR 2025
+title: Large-scale 3D Semantic Occupancy Prediction on NuPlan-Occ for Autonomous Driving @ WACV 2026
+description: --Promoting Discriminative and Generative Methods for Dynamic Scene Understanding
 ---
 
 :wave: Welcome to the **4<sup>th</sup> Monocular Depth Estimation Challenge Workshop** organized at :wave: 
