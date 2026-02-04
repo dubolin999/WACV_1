@@ -84,7 +84,7 @@ description: Challenge SOTA E2E AD models by curating adversarial driving scenes
 ## 🏆 **Baseline & Benchmark** {#baseline}
 
 <div class="container">
-  <img class="rounded-rect" src="assets/imgs/AD1.PNG" alt="Adversarial scenarios and performance degradation"/>
+  <img class="rounded-rect" src="assets/imgs/AD1.png" alt="Adversarial scenarios and performance degradation"/>
 </div>
 {: .text-center}
 [cite_start]*Photorealistic adversarial driving scenarios and observed performance degradation in terms of collision rate. [cite: 2]*
