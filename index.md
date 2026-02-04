@@ -31,7 +31,8 @@ description: Challenge SOTA E2E AD models by curating adversarial driving scenes
 * Current benchmarks lack the ability to systematically stress-test End-to-End (E2E) driving models against these edge cases. This competition addresses that gap by focusing on Adversarial Driving Scene Generation. Your task is to create synthetic driving scenes that feature adversarial or aggressive traffic participants. 
 
 **The Objective:**
-* This challenge flips the traditional evaluation paradigm. Instead of optimizing for higher driving scores, we incentivize you to generate scenarios that degrade model performance. Success is measured by your ability to induce failures in state-of-the-art E2E driving models while maintaining plausibility, helping the community to better understand and fix critical model weaknesses. 
+* This challenge flips the traditional evaluation paradigm. Instead of optimizing for higher driving scores, we incentivize you to generate scenarios that degrade model performance. Success is measured by your ability to induce failures in state-of-the-art E2E driving models while maintaining plausibility, helping the community to better understand and fix critical model weaknesses.
+
 ---
 
 ## 🎯 **Task** {#task}
@@ -84,3 +85,10 @@ Participants are encouraged to read and cite the following work:
   journal={arXiv preprint arXiv:2505.15880},
   year={2025}
 }
+
+
+<style>
+  footer, .site-footer, .owner {
+    display: none !important;
+  }
+</style>
