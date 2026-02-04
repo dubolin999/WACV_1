@@ -5,13 +5,16 @@ description: Challenge SOTA E2E AD models by curating adversarial driving scenes
 ---
 
 :wave: Welcome to the **Adversarial Driving Scene Generation Challenge** organized at :wave:
-[<img class="rounded-rect" src="assets/imgs/topo_cot.png" width="420px" alt="TopoCoT Workshop"/>](https://example.com) 
-*(Note: 1st Workshop on Robust and Generalized Lane Topology Understanding and HD Map Generation through CoT Design)*
+[<img class="rounded-rect" src="assets/imgs/wacv2026.png" width="420px" alt="WACV 2026"/>](https://wacv2026.thecvf.com)
 {: .text-center}
 
 [cite_start]**Workshop / Challenge Info:** _TBA (date, venue, online link)_ [cite: 1]
 {: .text-center}
 
+<div class="container">
+  <img class="rounded-rect" src="assets/imgs/AD0.PNG" alt="NuPlan-Occ overview figure"/>
+</div>
+{: .text-center}
 ---
 
 ## :page_facing_up: **Paper** {#paper}
@@ -81,7 +84,7 @@ description: Challenge SOTA E2E AD models by curating adversarial driving scenes
 ## 🏆 **Baseline & Benchmark** {#baseline}
 
 <div class="container">
-  <img class="rounded-rect" src="assets/imgs/adversarial_overview.PNG" alt="Adversarial scenarios and performance degradation"/>
+  <img class="rounded-rect" src="assets/imgs/AD1.PNG" alt="Adversarial scenarios and performance degradation"/>
 </div>
 {: .text-center}
 [cite_start]*Photorealistic adversarial driving scenarios and observed performance degradation in terms of collision rate. [cite: 2]*
