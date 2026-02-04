@@ -1,20 +1,8 @@
-#title: The 2nd Monocular Depth Estimation Challenge
-#description: MDEC @ CVPR 2023
-
-theme: jekyll-theme-cayman
-
+theme: jekyll-theme-minimal
 markdown: kramdown
+baseurl: "/WACV_1" # 确保与你的新仓库名一致
+url: "https://dubolin999.github.io"
 
-baseurl: /WACV_1
-
-# Remove `View on GitHub` & Download buttons
-show_downloads: false
-#github:
-#  is_project_page: false
-
-plugins:
-  - jemoji
-
-# 尝试关闭默认反馈/维护信息
+# 自定义配置
 show_downloads: false
 google_analytics:
