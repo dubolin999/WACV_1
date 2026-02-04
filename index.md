@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Adversarial Driving Scene Generation Challenge @ TopoCoT Workshop 2026WACV
+title: Adversarial Driving Scene Generation Challenge @ TopoCoT Workshop 2026WACV!
 description: Challenge SOTA E2E AD models by curating adversarial driving scenes
 ---
 
