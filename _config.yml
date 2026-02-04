@@ -14,3 +14,7 @@ show_downloads: false
 
 plugins:
   - jemoji
+
+# 尝试关闭默认反馈/维护信息
+show_downloads: false
+google_analytics:
