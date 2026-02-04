@@ -16,10 +16,10 @@ description: Challenge SOTA E2E AD models by curating adversarial driving scenes
 {: .text-center}
 
 
-
+---
 ## 📄 **Paper** {#paper}
 
-- **Reference Paper (arXiv)**: [Challenger: Affordable adversarial driving video generation](https://arxiv.org/abs/2505.15880)
+ **Reference Paper (arXiv)**: [Challenger: Affordable adversarial driving video generation](https://arxiv.org/abs/2505.15880)
 
 ---
 
