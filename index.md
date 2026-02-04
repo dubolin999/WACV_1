@@ -14,21 +14,9 @@ description: Challenge SOTA E2E AD models by curating adversarial driving scenes
 
 ---
 
-<div class="container">
-  <img class="rounded-rect" src="assets/imgs/adversarial_overview.PNG" alt="Adversarial scenarios and performance degradation"/>
-</div>
-{: .text-center}
-[cite_start]*Photorealistic adversarial driving scenarios and observed performance degradation in terms of collision rate. [cite: 2]*
-
----
-
 ## :page_facing_up: **Paper** {#paper}
 
 - [cite_start]**Reference Paper (arXiv)**: [Challenger: Affordable adversarial driving video generation](https://arxiv.org/abs/2505.15880) [cite: 37, 38, 40]
-
-## :tv: **Video** {#video}
-
-#### Coming soon...
 
 ---
 
@@ -51,10 +39,14 @@ description: Challenge SOTA E2E AD models by curating adversarial driving scenes
 
 ## 📌 **Overview** {#overview}
 
-[cite_start]While autonomous driving systems have made remarkable progress, they remain fragile in **"corner cases"**—rare, unexpected, or aggressive scenarios that often lead to safety-critical failures. [cite: 4] [cite_start]Ensuring robustness in these conditions is currently a major bottleneck for real-world deployment. [cite: 5]
+**The Reality Gap:**
+* [cite_start]While autonomous driving systems have made remarkable progress, they remain fragile in "corner cases"—rare, unexpected, or aggressive scenarios that often lead to safety-critical failures. Ensuring robustness in these conditions is currently a major bottleneck for real-world deployment [cite: 1]
 
-[cite_start]Current benchmarks lack the ability to systematically stress-test **End-to-End (E2E)** driving models against these edge cases. [cite: 6] [cite_start]This competition addresses that gap by focusing on **Adversarial Driving Scene Generation**. [cite: 7] [cite_start]Success is measured by your ability to induce failures in state-of-the-art E2E driving models while maintaining plausibility. [cite: 10]
+**The Challenge:**
+* [cite_start]Current benchmarks lack the ability to systematically stress-test End-to-End (E2E) driving models against these edge cases. This competition addresses that gap by focusing on Adversarial Driving Scene Generation. Your task is to create synthetic driving scenes that feature adversarial or aggressive traffic participants. [cite: 2]
 
+**The Objective:**
+* [cite_start]This challenge flips the traditional evaluation paradigm. Instead of optimizing for higher driving scores, we incentivize you to generate scenarios that degrade model performance. Success is measured by your ability to induce failures in state-of-the-art E2E driving models while maintaining plausibility, helping the community to better understand and fix critical model weaknesses. [cite: 17]
 ---
 
 ## 🎯 **Task** {#task}
@@ -77,34 +69,22 @@ description: Challenge SOTA E2E AD models by curating adversarial driving scenes
 
 [cite_start]Submissions are evaluated through a three-stage pipeline to ensure realism and effectiveness: [cite: 26]
 
-1.  [cite_start]**Kinematic Rectification**: Ensures the trajectory is smooth and physically executable via LQR controller. [cite: 27, 28]
-2.  [cite_start]**Neural Rendering**: Converts scenarios into high-fidelity RGB video clips for realistic visual testing. [cite: 29, 30]
+1.  [cite_start]**Kinematic Rectification**: Ensures the trajectory is smooth and physically executable via LQR controller. This step enforces dynamic feasibility, ensuring that the adversarial vehicle's movement is smooth and physically executable in the real world. [cite: 27, 28]
+2.  [cite_start]**Neural Rendering**: Converts scenarios into high-fidelity RGB video clips for realistic visual testing. This transformation ensures that the autonomous driving models are tested on realistic visual data. [cite: 29, 30]
 3.  [cite_start]**Performance Testing & Scoring**: Clips are fed into four SOTA E2E AD models in an **open-loop setting**. [cite: 31]
 
-[cite_start]**Primary Metric:** **Average Collision Rate**. [cite: 32]
+[cite_start]**Primary Metric:** The models are evaluated based on their **Average Collision Rate** The models are evaluated based on their Average Collision Rate across your generated scenes. [cite: 32]
 [cite_start]**Ranking:** Contrary to standard benchmarks, **higher is better**. [cite: 33] [cite_start]A higher rate indicates a more successful adversarial scenario. [cite: 34]
 
 ---
 
 ## 🏆 **Baseline & Benchmark** {#baseline}
 
-[cite_start]Initial testing shows significant performance degradation when models face adversarial scenarios (Adv-nuSc) compared to standard validation sets: [cite: 2]
-
-| AD Model | nuScenes-val (Coll. Rate) | Adv-nuSc (Coll. Rate) | Degradation |
-| :--- | :--- | :--- | :--- |
-| **UniAD** | 0.29% | **3.95%** | 12.6× ↑ |
-| **VAD** | 0.26% | **7.05%** | 26.1× ↑ |
-| **SparseDrive** | 0.107% | **1.026%** | 8.6× ↑ |
-| **DiffusionDrive** | 0.099% | **1.671%** | 15.9× ↑ |
-
-[cite_start]*(Data derived from Figure 1 performance table [cite: 2])*
-
----
-
-## 🏅 **Awards & Recognition** {#awards}
-
-- [cite_start]**Win Big!** Awards for **1st, 2nd, and 3rd place** (Amounts [TBD]). [cite: 1]
-- [cite_start]Top teams will be recognized for helping the community identify and fix critical model weaknesses. [cite: 10]
+<div class="container">
+  <img class="rounded-rect" src="assets/imgs/adversarial_overview.PNG" alt="Adversarial scenarios and performance degradation"/>
+</div>
+{: .text-center}
+[cite_start]*Photorealistic adversarial driving scenarios and observed performance degradation in terms of collision rate. [cite: 2]*
 
 ---
 
